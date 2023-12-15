@@ -1,3 +1,5 @@
+import _ from 'loadash';
+
 function component() {
   const element = document.createElement('div');
 
