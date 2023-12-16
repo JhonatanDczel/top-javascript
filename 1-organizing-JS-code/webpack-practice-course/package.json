@@ -4,13 +4,18 @@
   "description": "Curso practico de webpack para aprender la fase de desarrollo pre produccion",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "execute": "google-chrome-stable ./dist/index.html"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Jhonatan Dczel",
+  "license": "MIT",
   "devDependencies": {
     "webpack": "^5.89.0",
     "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
   }
 }
