@@ -8,18 +8,22 @@
     "build": "webpack",
     "execute": "google-chrome-stable ./dist/index.html",
     "watch": "webpack --watch",
-    "start": "webpack serve --open"
+    "start": "webpack serve --open",
+    "server": "node server.js"
   },
   "keywords": [],
   "author": "Jhonatan Dczel",
   "license": "MIT",
   "devDependencies": {
+    "express": "^4.18.2",
     "html-webpack-plugin": "^5.6.0",
     "webpack": "^5.89.0",
     "webpack-cli": "^5.1.4",
+    "webpack-dev-middleware": "^6.1.1",
     "webpack-dev-server": "^4.15.1"
   },
   "dependencies": {
-    "lodash": "^4.17.21"
+    "lodash": "^4.17.21",
+    "mysql": "^2.18.1"
   }
 }
